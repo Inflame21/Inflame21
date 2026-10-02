@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-labelledby="t d">
+<title id="t">Five layers, clear boundaries</title>
+<desc id="d">Animated diagram of a five-layer architecture: Frontend, API, Domain, Data and Platform, with the Domain layer marked as the framework-free core.</desc>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace}
+.sans{font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif}
+.row{animation:slide .7s ease-out both}
+@keyframes slide{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
+.sw{animation:sweep 8.0s linear infinite}
+@keyframes sweep{0%{opacity:0}5%{opacity:.2}14%{opacity:0}100%{opacity:0}}
+.dot{animation:travel 8.0s linear infinite}
+@keyframes travel{0%{opacity:0;transform:translateY(0)}4%{opacity:1;transform:translateY(0)}50%{opacity:1;transform:translateY(232px)}56%,100%{opacity:0;transform:translateY(232px)}}
+.fade{animation:fade .9s ease-out 1s both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.row0{animation-delay:0.2s}.sw0{animation-delay:-0.08s}.row1{animation-delay:0.35s}.sw1{animation-delay:0.84s}.row2{animation-delay:0.5s}.sw2{animation-delay:1.76s}.row3{animation-delay:0.65s}.sw3{animation-delay:2.68s}.row4{animation-delay:0.8s}.sw4{animation-delay:3.6s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.dot{opacity:0}}
+</style>
+
+<rect width="1000" height="380" rx="14" fill="#fbf8f6"/>
+<text class="mono fade" x="44" y="34" font-size="12" letter-spacing="3" fill="#6e625c">FIG. 01  ·  FIVE LAYERS, CLEAR BOUNDARIES</text>
+
+<line x1="36" y1="79" x2="36" y2="311" stroke="#ddd0ca" stroke-width="1.5" stroke-dasharray="3 5"/>
+<circle class="dot" cx="36" cy="79" r="5" fill="#c63d1b"/>
+
+<g class="row row0"><rect x="70" y="56" width="890" height="46" rx="8" fill="#ffffff" stroke="#ddd0ca"/><rect class="sw sw0" x="70" y="56" width="890" height="46" rx="8" fill="#c63d1b" opacity="0"/><text class="mono" x="90" y="84" font-size="14" fill="#c63d1b">01</text><text class="sans" x="130" y="85" font-size="18" font-weight="700" fill="#1a1210">Frontend</text><text class="sans" x="260" y="84" font-size="14" fill="#6e625c">Fast, accessible product UIs in React and Next.js.</text></g><g class="row row1"><rect x="70" y="114" width="890" height="46" rx="8" fill="#ffffff" stroke="#ddd0ca"/><rect class="sw sw1" x="70" y="114" width="890" height="46" rx="8" fill="#c63d1b" opacity="0"/><text class="mono" x="90" y="142" font-size="14" fill="#c63d1b">02</text><text class="sans" x="130" y="143" font-size="18" font-weight="700" fill="#1a1210">API</text><text class="sans" x="260" y="142" font-size="14" fill="#6e625c">Typed REST and GraphQL, real-time over WebSockets.</text></g><g class="row row2"><rect x="70" y="172" width="890" height="46" rx="8" fill="#ffffff" stroke="#c63d1b"/><rect class="sw sw2" x="70" y="172" width="890" height="46" rx="8" fill="#c63d1b" opacity="0"/><text class="mono" x="90" y="200" font-size="14" fill="#c63d1b">03</text><text class="sans" x="130" y="201" font-size="18" font-weight="700" fill="#1a1210">Domain</text><text class="sans" x="260" y="200" font-size="14" fill="#6e625c">Feature modules with strict boundaries — no framework in the core.</text><rect x="866" y="184" width="70" height="22" rx="11" fill="none" stroke="#c63d1b"/><text class="mono" x="901" y="199" font-size="11" letter-spacing="2" text-anchor="middle" fill="#c63d1b">CORE</text></g><g class="row row3"><rect x="70" y="230" width="890" height="46" rx="8" fill="#ffffff" stroke="#ddd0ca"/><rect class="sw sw3" x="70" y="230" width="890" height="46" rx="8" fill="#c63d1b" opacity="0"/><text class="mono" x="90" y="258" font-size="14" fill="#c63d1b">04</text><text class="sans" x="130" y="259" font-size="18" font-weight="700" fill="#1a1210">Data</text><text class="sans" x="260" y="258" font-size="14" fill="#6e625c">Document and relational stores with Redis in front.</text></g><g class="row row4"><rect x="70" y="288" width="890" height="46" rx="8" fill="#ffffff" stroke="#ddd0ca"/><rect class="sw sw4" x="70" y="288" width="890" height="46" rx="8" fill="#c63d1b" opacity="0"/><text class="mono" x="90" y="316" font-size="14" fill="#c63d1b">05</text><text class="sans" x="130" y="317" font-size="18" font-weight="700" fill="#1a1210">Platform</text><text class="sans" x="260" y="316" font-size="14" fill="#6e625c">Containerised, tested and shipped through CI/CD.</text></g>
+
+<text class="sans fade" x="44" y="362" font-size="12" fill="#6e625c">Every product is layered the same way, so a feature can change without dragging the rest along.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-labelledby="t">
+<title id="t">git commit -m "let's build something together" — kaythamwarsachin@gmail.com · sachinkaythamwar.com</title>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace}
+.sans{font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif}
+.cv{transform-box:fill-box;transform-origin:100% 50%;animation:reveal 10s steps(46) infinite both}
+@keyframes reveal{0%{transform:scaleX(1)}28%{transform:scaleX(0)}100%{transform:scaleX(0)}}
+.out{animation:out 10s ease-out infinite both}
+@keyframes out{0%,30%{opacity:0;transform:translateY(6px)}36%{opacity:1;transform:translateY(0)}94%{opacity:1}100%{opacity:0}}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cv{transform:scaleX(0)}}
+</style>
+<rect width="1000" height="120" rx="14" fill="#fbf8f6"/>
+<path d="M22 12H978A10 10 0 0 1 988 22V98A10 10 0 0 1 978 108H22A10 10 0 0 1 12 98V22A10 10 0 0 1 22 12Z" fill="none" stroke="#ddd0ca"/>
+<text class="mono" x="44" y="54" font-size="20" fill="#c63d1b">$</text>
+<g>
+<text class="mono" x="70" y="54" font-size="18" fill="#1a1210" textLength="496.8" lengthAdjust="spacing">git commit -m &quot;let's build something together&quot;</text>
+<rect class="cv" x="68" y="34" width="504.8" height="28" fill="#fbf8f6"/>
+</g>
+<rect class="cur" x="574.8" y="38" width="10" height="20" fill="#c63d1b"/>
+<g class="out">
+<circle class="pulse" cx="48" cy="82" r="4" fill="#1f9d55"/>
+<text class="mono" x="62" y="86" font-size="13" fill="#6e625c">kaythamwarsachin@gmail.com  ·  <tspan fill="#c63d1b">sachinkaythamwar.com</tspan></text>
+</g>
+<text class="mono" x="956" y="86" font-size="10" letter-spacing="2" text-anchor="end" fill="#6e625c">END OF SHEET</text>
+</svg>

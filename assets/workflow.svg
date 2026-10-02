@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 236" width="1000" height="236" role="img" aria-labelledby="t d">
+<title id="t">Order-to-production flow</title>
+<desc id="d">Animated diagram of the B2B jewelry ERP workflow: Cart, Sales order, Purchase order, Job card, Invoice. Every step is priced by rate settings, permission-checked with RBAC, and written to an audit log.</desc>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace}
+.sans{font-family:Inter,"Segoe UI",Helvetica,Arial,sans-serif}
+.node{animation:rise .7s ease-out both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.hi{opacity:0;animation:hi 7.5s linear infinite}
+@keyframes hi{0%{opacity:0}4%{opacity:1}18%{opacity:1}24%,100%{opacity:0}}
+.flow{stroke-dasharray:4 4;animation:flow 1s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-8}}
+.dot{animation:travel 7.5s linear infinite}
+@keyframes travel{0%{transform:translateX(0);opacity:1}80%{transform:translateX(752px);opacity:1}88%,100%{transform:translateX(752px);opacity:0}}
+.fill{transform-box:fill-box;transform-origin:0 50%;animation:fill 7.5s linear infinite}
+@keyframes fill{0%{transform:scaleX(0);opacity:1}80%{transform:scaleX(1);opacity:1}88%,100%{transform:scaleX(1);opacity:0}}
+.fade{animation:fade .9s ease-out .8s both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.hi{opacity:0}.fill{transform:scaleX(1)}}
+</style>
+<rect width="1000" height="236" rx="14" fill="#0c0709"/>
+<text class="mono fade" x="44" y="34" font-size="12" letter-spacing="3" fill="#9a8c85">FIG. 02  ·  ORDER-TO-PRODUCTION FLOW, B2B JEWELRY ERP</text>
+<path d="M124 176H876" stroke="#3a2b27" stroke-width="1.5"/>
+<rect class="fill" x="124" y="175.25" width="752" height="1.5" fill="#ff5a36"/>
+<g class="node" style="animation-delay:0.15s">
+<rect x="44" y="62" width="160" height="66" rx="8" fill="#150e0c" stroke="#3a2b27"/>
+<rect class="hi" x="44" y="62" width="160" height="66" rx="8" fill="#ff5a36" fill-opacity=".08" stroke="#ff5a36" style="animation-delay:0.00s"/>
+<text class="mono" x="58" y="84" font-size="11" letter-spacing="1" fill="#ff5a36">01</text>
+<text class="sans" x="58" y="104" font-size="16" font-weight="700" fill="#f4ece6">Cart</text>
+<text class="mono" x="58" y="119" font-size="10.5" fill="#9a8c85">rate-priced items</text>
+</g><path class="flow" d="M208 95H226" stroke="#ff5a36" stroke-width="1.5" fill="none"/><path d="M225 91L230 95L225 99" fill="none" stroke="#ff5a36" stroke-width="1.5"/><path d="M124 134V170" stroke="#3a2b27" stroke-dasharray="2 4"/><circle cx="124" cy="176" r="4" fill="#0c0709" stroke="#3a2b27" stroke-width="1.5"/><g class="node" style="animation-delay:0.27s">
+<rect x="232" y="62" width="160" height="66" rx="8" fill="#150e0c" stroke="#3a2b27"/>
+<rect class="hi" x="232" y="62" width="160" height="66" rx="8" fill="#ff5a36" fill-opacity=".08" stroke="#ff5a36" style="animation-delay:1.50s"/>
+<text class="mono" x="246" y="84" font-size="11" letter-spacing="1" fill="#ff5a36">02</text>
+<text class="sans" x="246" y="104" font-size="16" font-weight="700" fill="#f4ece6">Sales order</text>
+<text class="mono" x="246" y="119" font-size="10.5" fill="#9a8c85">customer commitment</text>
+</g><path class="flow" d="M396 95H414" stroke="#ff5a36" stroke-width="1.5" fill="none"/><path d="M413 91L418 95L413 99" fill="none" stroke="#ff5a36" stroke-width="1.5"/><path d="M312 134V170" stroke="#3a2b27" stroke-dasharray="2 4"/><circle cx="312" cy="176" r="4" fill="#0c0709" stroke="#3a2b27" stroke-width="1.5"/><g class="node" style="animation-delay:0.39s">
+<rect x="420" y="62" width="160" height="66" rx="8" fill="#150e0c" stroke="#3a2b27"/>
+<rect class="hi" x="420" y="62" width="160" height="66" rx="8" fill="#ff5a36" fill-opacity=".08" stroke="#ff5a36" style="animation-delay:3.00s"/>
+<text class="mono" x="434" y="84" font-size="11" letter-spacing="1" fill="#ff5a36">03</text>
+<text class="sans" x="434" y="104" font-size="16" font-weight="700" fill="#f4ece6">Purchase order</text>
+<text class="mono" x="434" y="119" font-size="10.5" fill="#9a8c85">raised to vendor</text>
+</g><path class="flow" d="M584 95H602" stroke="#ff5a36" stroke-width="1.5" fill="none"/><path d="M601 91L606 95L601 99" fill="none" stroke="#ff5a36" stroke-width="1.5"/><path d="M500 134V170" stroke="#3a2b27" stroke-dasharray="2 4"/><circle cx="500" cy="176" r="4" fill="#0c0709" stroke="#3a2b27" stroke-width="1.5"/><g class="node" style="animation-delay:0.51s">
+<rect x="608" y="62" width="160" height="66" rx="8" fill="#150e0c" stroke="#3a2b27"/>
+<rect class="hi" x="608" y="62" width="160" height="66" rx="8" fill="#ff5a36" fill-opacity=".08" stroke="#ff5a36" style="animation-delay:4.50s"/>
+<text class="mono" x="622" y="84" font-size="11" letter-spacing="1" fill="#ff5a36">04</text>
+<text class="sans" x="622" y="104" font-size="16" font-weight="700" fill="#f4ece6">Job card</text>
+<text class="mono" x="622" y="119" font-size="10.5" fill="#9a8c85">sent to production</text>
+</g><path class="flow" d="M772 95H790" stroke="#ff5a36" stroke-width="1.5" fill="none"/><path d="M789 91L794 95L789 99" fill="none" stroke="#ff5a36" stroke-width="1.5"/><path d="M688 134V170" stroke="#3a2b27" stroke-dasharray="2 4"/><circle cx="688" cy="176" r="4" fill="#0c0709" stroke="#3a2b27" stroke-width="1.5"/><g class="node" style="animation-delay:0.63s">
+<rect x="796" y="62" width="160" height="66" rx="8" fill="#150e0c" stroke="#3a2b27"/>
+<rect class="hi" x="796" y="62" width="160" height="66" rx="8" fill="#ff5a36" fill-opacity=".08" stroke="#ff5a36" style="animation-delay:6.00s"/>
+<text class="mono" x="810" y="84" font-size="11" letter-spacing="1" fill="#ff5a36">05</text>
+<text class="sans" x="810" y="104" font-size="16" font-weight="700" fill="#f4ece6">Invoice</text>
+<text class="mono" x="810" y="119" font-size="10.5" fill="#9a8c85">sales and purchase</text>
+</g><path d="M876 134V170" stroke="#3a2b27" stroke-dasharray="2 4"/><circle cx="876" cy="176" r="4" fill="#0c0709" stroke="#3a2b27" stroke-width="1.5"/>
+<circle class="dot" cx="124" cy="176" r="5" fill="#ff5a36"/>
+<text class="sans fade" x="44" y="218" font-size="12" fill="#9a8c85">Every step is priced by settings-driven rate rules, permission-checked with RBAC, and written to an audit log.</text>
+</svg>
