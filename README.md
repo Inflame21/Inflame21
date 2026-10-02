@@ -1,26 +1,30 @@
-# Sachin Kaythamwar
+<div align="center">
 
-**Software Engineer II | Full Stack Product Engineer**
+<img src="assets/header.svg" alt="Sachin Kaythamwar, Software Engineer II and Full Stack Product Engineer" width="100%">
 
-Sachin Kaythamwar is a full stack engineer with 3+ years of experience building ERP, CRM, SaaS, and platform systems. He works with React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, and GraphQL, and designs products as Modular Monoliths with Clean Architecture and DDD-Lite.
+**Sachin Kaythamwar** (Sachin Gangadhar Kaythamwar) · Software Engineer II · Full Stack Product Engineer
 
-Official website: **[sachinkaythamwar.com](https://sachinkaythamwar.com)**
+[Portfolio](https://sachinkaythamwar.com) · [Resume](https://sachinkaythamwar.com/resume/Sachin_Kaythamwar_Resume.pdf) · [Projects](https://sachinkaythamwar.com/projects) · [Blog](https://sachinkaythamwar.com/blog) · [LinkedIn](https://linkedin.com/in/sachin-kaythamwar-969178234) · [Email](mailto:kaythamwarsachin@gmail.com)
 
-## Links
+<img src="assets/stack.svg" alt="Tech stack: React, Next.js, TypeScript, Node.js, Express, GraphQL, MongoDB, PostgreSQL, Redis, Deno, Three.js, Tailwind CSS, WebSockets, Clean Architecture, DDD-Lite, Modular Monolith" width="100%">
 
-- Portfolio: [sachinkaythamwar.com](https://sachinkaythamwar.com)
-- Resume: [Sachin_Kaythamwar_Resume.pdf](https://sachinkaythamwar.com/resume/Sachin_Kaythamwar_Resume.pdf)
-- Projects: [sachinkaythamwar.com/projects](https://sachinkaythamwar.com/projects)
-- Blog: [sachinkaythamwar.com/blog](https://sachinkaythamwar.com/blog)
-- LinkedIn: [Sachin Kaythamwar](https://linkedin.com/in/sachin-kaythamwar-969178234)
-- GitHub (personal): [sachinka2109](https://github.com/sachinka2109)
-- Email: [kaythamwarsachin@gmail.com](mailto:kaythamwarsachin@gmail.com)
+</div>
 
 ## About
 
+Sachin Kaythamwar is a full stack engineer with 3+ years of experience building ERP, CRM, SaaS, and platform systems. He works with React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, and GraphQL, and designs products as Modular Monoliths with Clean Architecture and DDD-Lite.
+
 I build enterprise products end to end, from the data model and APIs to the screens people use every day. My focus is on codebases that stay maintainable as they grow: strict feature boundaries, business logic that doesn't depend on a framework, and tests that run in CI.
 
-Currently working as a Full Stack Software Engineer at AI Tech Ture Labs LLP (2023 to present), and open to SDE-2, Product Engineer, and Senior Full Stack roles.
+Currently a Full Stack Software Engineer at AI Tech Ture Labs LLP (2023 to present), and open to SDE-2, Product Engineer, and Senior Full Stack roles.
+
+## How I structure products
+
+<div align="center">
+
+<img src="assets/layers.svg" alt="Five layers, clear boundaries: Frontend, API, Domain, Data, Platform. The Domain layer is the framework-free core." width="100%">
+
+</div>
 
 ## What I work on
 
@@ -68,4 +72,4 @@ For roles and collaborations, use the [contact page](https://sachinkaythamwar.co
 
 ---
 
-*Sachin Kaythamwar (Sachin Gangadhar Kaythamwar) is a software engineer based in India.*
+_Sachin Kaythamwar (Sachin Gangadhar Kaythamwar) is a software engineer based in India._
